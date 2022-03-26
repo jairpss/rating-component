@@ -112,3 +112,8 @@ button:hover {
   color: var(--orange);
   background-color: var(--white);
 }
+
+.selected {
+  color: var(--white);
+  background-color: var(--light-grey);
+}
