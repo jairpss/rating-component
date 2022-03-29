@@ -98,7 +98,7 @@ button {
   color: var(--white);
   font-family: var(--main-font);
   margin: 20px 20px 10px;
-  padding: 12px 144px;
+  padding: 12px 138px;
   border-radius: 25px;
   border: none;
   text-transform: uppercase;
@@ -163,4 +163,51 @@ button:hover {
   color: var(--medium-grey);
   margin-bottom: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 418px) {
+  .main {
+    width: 280px;
+  }
+
+  .rate-number {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+  }
+
+  button {
+    padding: 12px 120px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+
+  /* Thank you screen */
+
+  .thank-you {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main {
+    width: 240px;
+  }
+
+  .rate-number {
+    width: 40px;
+    height: 40px;
+  }
+
+  button {
+    padding: 12px 100px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+
+  /* Thank you screen */
+
+  .thank-you {
+    width: 280px;
+  }
 }
