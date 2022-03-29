@@ -167,7 +167,7 @@ button:hover {
 
 @media screen and (max-width: 418px) {
   .main {
-    width: 280px;
+    width: 300px;
   }
 
   .rate-number {
@@ -185,11 +185,11 @@ button:hover {
   /* Thank you screen */
 
   .thank-you {
-    width: 280px;
+    width: 300px;
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .main {
     width: 240px;
   }
