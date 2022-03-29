@@ -2,12 +2,12 @@ const rateNum = document.querySelectorAll(".rate-number")
 const selectedDiv = document.querySelector(".rate")
 
 let selectedNum = 3 
-rateNum.forEach((rating, idx) =>{
+rateNum.forEach((rating, id) =>{
     rating.addEventListener('click', () => {
         removeSelected()
         rating.classList.add('selected')
-        selectedNum = idx + 1 
-        console.log(selectedNum) 
+        selectedNum = id + 1 
+        // console.log(selectedNum) 
     } ) 
 
 })
